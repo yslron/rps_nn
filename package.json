@@ -1,8 +1,8 @@
 {
-  "name": "batu-gunting-kertas-nuxt",
+  "name": "rock-paper-scissor-game-with-artificial-intelligence",
   "version": "1.0.0",
-  "description": "Permainan Batu Gunting Kertas menggunakan kecerdasan buatan dengan memprediksi nomor yang akan muncul berdasarkan pola.",
-  "author": "Arif Ikhsanudin",
+  "description": "Using Neural Network to predict rock paper scissor game",
+  "author": "everyone",
   "private": true,
   "scripts": {
     "dev": "nuxt",
