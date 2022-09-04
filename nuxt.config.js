@@ -56,7 +56,7 @@ export default {
     port: 8000,
   },
   i18n: {
-    locales: ['en', 'id'],
+    locales: ['en'],
     defaultLocale: 'en',
     vueI18n: {
       fallbackLocale: 'en',
@@ -66,13 +66,13 @@ export default {
           title: 'Rock Paper Scissors',
           subtitle: 'With Artificial Intellegence',
 
-          gameStart: 'Start Game',
+          gameStart: 'Choose what to play',
           youWin: 'You Win',
           youLose: 'You Lose',
           draw: 'Draw',
 
           score: 'Score',
-          human: 'Human',
+          human: 'You',
           ai: 'AI',
           rock: 'Rock',
           paper: 'Paper',
@@ -101,46 +101,7 @@ export default {
           brainjs: 'Built with library',
           github: 'Get this code in'
         },
-        id: {
-          welcome: 'Selamat datang',
-          title: 'Batu Gunting Kertas',
-          subtitle: 'Dengan Kecerdasan Buatan',
-
-          gameStart: 'Mulai Permainan',
-          youWin: 'Anda Menang',
-          youLose: 'Anda Kalah',
-          draw: 'Seri',
-
-          score: 'Skor',
-          human: 'Manusia',
-          ai: 'AI',
-          rock: 'Batu',
-          paper: 'Kertas',
-          scissors: 'Gunting',
-          reset: 'Ulangi dari awal',
-          gameCount: 'Game ke',
-
-          what: 'Apa ini?',
-          thisIs:
-            'Ini adalah permainan batu gunting kertas yang dibuat dengan menggunakan kecerdasan buatan.',
-          thisGame:
-            "Game ini dapat membaca pola pemainnya untuk menentukan langkah yang akan diambil oleh AI agar bisa menang.",
-          builtWith: 'Dibuat dengan framework Nuxt JS & Tailwind CSS.',
-
-          how: 'Cara bermain',
-          step1: 'Anda bisa memulai permainan dengan memilih "batu", "gunting" atau "kertas".',
-          step2: 'Pilihlah secara terus menerus sampai membuat pola.',
-          step3: 'Contoh pola:',
-          pattern1: 'Batu, batu, batu, batu, dst.',
-          pattern2: 'Batu, gunting, batu, gunting, dst.',
-          pattern3: 'Batu, gunting, kertas, batu, gunting, kertas, dst.',
-          pattern4: 'Kertas, kertas, kertas, kertas, dst.',
-          step4: 'Lihatlah bahwa Anda akan kalah.',
-
-          source: 'Kode Sumber',
-          brainjs: 'Dibuat dengan library',
-          github: 'Dapatkan kode game ini di'
-        }
+        
       }
     }
   }
