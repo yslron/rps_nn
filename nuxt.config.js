@@ -64,7 +64,7 @@ export default {
         en: {
           welcome: 'Welcome',
           title: 'Rock Paper Scissors',
-          subtitle: 'With Artificial Intellegence',
+          subtitle: 'Using Brain.js Library, Artificial Intellegence',
 
           gameStart: 'Choose what to play',
           youWin: 'You Win',
